@@ -40,7 +40,7 @@ gem 'letter_opener', group: :development
 gem 'aasm'
 gem 'figaro'
 gem 'carrierwave-qiniu'
-gem 'qiniu-rs'
+gem 'qiniu', '~>6.8.1'
 
 
 group :development, :test do
@@ -63,4 +63,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem "pg"
-end 
+end
