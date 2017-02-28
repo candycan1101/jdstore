@@ -35,10 +35,12 @@
             <% end %>
             <li>
               <%= link_to("My account", account_orders_path) %>
+            </li>
             <li><%= link_to(content_tag(:i,' Logout', class: 'glyphicon glyphicon-log-out'), destroy_user_session_path, method: :delete) %> </li>
           </ul>
         </li>
         <% end %>
+      </ul>
     </div>
     <!-- /.navbar-collapse -->
   </div>
